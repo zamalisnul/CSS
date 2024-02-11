@@ -1,4 +1,8 @@
-/* css multipage */
+/* CSS multipage */
+#post-pager {
+  margin-top: 30px;
+  color: #fff;
+}
 .round-button {
   display: inline-block;
   width: 40px;
@@ -6,26 +10,18 @@
   line-height: 40px;
   border: 1px solid transparent;
   border-radius: 50%;
-  border-color: #099bfe;  
+  border-color: #099bfe;
   text-align: center;
   background-color: #fff;
   text-decoration: none;
   margin: 0 5px;
 }
-#post-pager {
-  margin-top: 25px;
-  text-height: bold;
-}
-/* Ketika tombol dihover, ubah warna latar belakang */
 .round-button:hover {
   background-color: #3364ff;
-  border-color:  #3364ff;  
+  border-color: #3364ff;
 }
-#post-pager a:hover {
-  color: #fff;
-}
-/* Untuk tombol sekarang, beri warna yang berbeda */
+#post-pager a:hover{color:#fff;}
 .round-button.current {
   background-color: #8665FE;
-  border-color: #8665FE;
+  border-color:#8665FE;
 }
