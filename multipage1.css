@@ -3,6 +3,9 @@
   margin-top: 30px;
   color: #fff;
 }
+#post-pager.round-button {
+  border-radius: 5%;
+}
 .round-button {
   display: inline-block;
   width: 40px;
